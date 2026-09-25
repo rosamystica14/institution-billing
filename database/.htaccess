@@ -1,0 +1,4 @@
+# Deny all direct web access to this folder (protects the SQLite database file)
+Require all denied
+Order deny,allow
+Deny from all

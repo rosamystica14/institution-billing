@@ -1,0 +1,27 @@
+﻿.env
+.env.*
+!.env.example
+
+*.log
+
+/vendor/
+/node_modules/
+
+.DS_Store
+Thumbs.db
+
+.idea/
+.vscode/
+
+# Local database files
+database/*.sqlite
+database/*.sqlite.*
+database/*.db
+database/*.db.*
+
+# User-uploaded files
+assets/uploads/photos/*
+assets/uploads/logo/*
+
+!assets/uploads/photos/.gitkeep
+!assets/uploads/logo/.gitkeep
